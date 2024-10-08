@@ -13,6 +13,9 @@
         android:theme="@style/Theme.Mobile_labs"
         tools:targetApi="31">
         <activity
+            android:name=".Laba4Activity"
+            android:exported="false" />
+        <activity
             android:name=".Laba3ScrollingActivity"
             android:exported="false"
             android:label="@string/title_activity_laba3_scrolling"
