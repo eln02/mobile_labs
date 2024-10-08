@@ -55,5 +55,14 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        Button buttonLaba5 = findViewById(R.id.button_laba5);
+        buttonLaba5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Завершить текущее Activity
+                finish();
+            }
+        });
     }
 }
